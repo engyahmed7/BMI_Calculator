@@ -1,5 +1,6 @@
-import 'package:bmi_calculator/bmi_result_screen.dart';
-import 'package:bmi_calculator/home_Screen.dart';
+import 'package:bmi_calculator/modules/bmi_result/bmi_result_screen.dart';
+import 'package:bmi_calculator/modules/bmi/bmi_sacreen.dart';
+import 'package:bmi_calculator/modules/login/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: MyHomePage(),
+      home: LoginScreen(),
     );
   }
 }
